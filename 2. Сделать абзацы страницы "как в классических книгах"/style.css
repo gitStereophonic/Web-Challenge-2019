@@ -17,3 +17,12 @@ body {
 }
 
 /* Пишите Ваш код ниже */
+
+.content p {
+  text-indent: 40px;
+}
+
+.content p:first-letter {
+  font-size: 200%;
+  color: red;
+}
