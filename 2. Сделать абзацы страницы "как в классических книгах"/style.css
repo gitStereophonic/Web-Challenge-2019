@@ -1,0 +1,28 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.descr {
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+
+.content {
+  padding: 30px;
+}
+
+/* Пишите Ваш код ниже */
+
+.content p {
+  text-indent: 40px;
+}
+
+.content p:first-letter {
+  font-size: 200%;
+  color: red;
+}
