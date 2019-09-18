@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.descr {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.content {
+  padding: 30px;
+}
+
+/* Пишите Ваш код ниже */
+
+.square-list {
+  list-style-type: square;
+}
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.empty-marker-list {
+  list-style-type: none;
+}
+
+.math-list {
+  list-style-type: lower-greek;
+}
+
+.latin-list {
+  list-style-type: upper-latin;
+}
+
+.special-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.special-list li:before {
+  content: "@";
+  display: inline-block;
+  width: 20px;
+}
+
+.img-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.img-list li {
+  background: url('http://webgyry.info/images/marker_rounded_grey_5.png') no-repeat;
+  padding-left: 20px;
+}
